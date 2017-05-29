@@ -31,23 +31,9 @@ CREATE TABLE IF NOT EXISTS `nn_ct_users` (
   `modified_date` datetime NOT NULL COMMENT 'modified date'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='contains users data';
 
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `nn_ct_users`
---
 ALTER TABLE `nn_ct_users`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `nn_ct_users`
---
 ALTER TABLE `nn_ct_users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID ';
 
